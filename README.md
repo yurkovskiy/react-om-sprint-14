@@ -9,9 +9,9 @@ Testing JS Applications (React Applications)
 
 ## Tasks
 Please write unit tests to check functionality of all modules (components, service) with using Jest framework
-- [] **App** component
-- [] **Info** component
-- [] **DataService** module
+- [x] **App** component
+- [x] **Info** component
+- [x] **DataService** module
 
 All testing modules should be placed at ```src/tests``` directory
 All test specifications should be real it means that code like this ```expect(2 + 2).toBe(4)``` isn't good :)
