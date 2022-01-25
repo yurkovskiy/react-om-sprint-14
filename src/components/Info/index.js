@@ -8,7 +8,7 @@ class Info extends Component {
     this.state = {};
   }
 
-  async componentDidMount() {
+  componentDidMount() {
     getGitHubUser(this.props.user)
       .then((response) => {
         this.setState(response.data);
